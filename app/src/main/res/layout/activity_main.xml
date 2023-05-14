@@ -7,23 +7,51 @@
     android:orientation="vertical"
     tools:context=".RecordActivity">
 
-    <EditText
-        android:id="@+id/sr_width"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="width"/>
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="width"/>
 
-    <EditText
-        android:id="@+id/sr_height"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="height"/>
+        <EditText
+            android:id="@+id/sr_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/sr_fps"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="fps"/>
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="height"/>
+
+        <EditText
+            android:id="@+id/sr_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="fps"/>
+
+        <EditText
+            android:id="@+id/sr_fps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
 
     <Button
         android:id="@+id/sc_start"
