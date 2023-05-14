@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecordActivity">
+
+    <EditText
+        android:id="@+id/sr_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="width"/>
+
+    <EditText
+        android:id="@+id/sr_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="height"/>
+
+    <EditText
+        android:id="@+id/sr_fps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fps"/>
+
+    <Button
+        android:id="@+id/sc_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start"/>
+
+    <Button
+        android:id="@+id/sc_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pause"/>
+
+    <Button
+        android:id="@+id/sc_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop"/>
+
+</LinearLayout>
